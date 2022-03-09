@@ -5,6 +5,9 @@
   "repository": "git@github.com:RaudaJairo/InstagramBackEnd.git",
   "author": "RaudaJairo <jairo@opoli.ninja>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js --watch src --ignore /src/database/db.sqlite"
+  },
   "dependencies": {
     "@sequelize/core": "^7.0.0-alpha.10",
     "bcrypt": "^5.0.1",
