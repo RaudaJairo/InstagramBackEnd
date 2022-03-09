@@ -1,0 +1,21 @@
+{
+  "name": "InstagramBackEnd",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:RaudaJairo/InstagramBackEnd.git",
+  "author": "RaudaJairo <jairo@opoli.ninja>",
+  "license": "MIT",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
