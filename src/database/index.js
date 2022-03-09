@@ -5,7 +5,11 @@ const Database = () => {
     const sequelize = new Sequelize({
         dialect: "sqlite",
         storage: join(__dirname, 'db.sqlite'),
-        logging: false
+        logging: false,
+        dialectOptions: {
+            charset: "utf8mb4",
+            collate: "utf8mb4_unicode_ci",
+        }
     });
 
     const auth = async () => {
